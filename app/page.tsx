@@ -39,8 +39,7 @@ export default function HomePageEn() {
             href="https://www.linkedin.com/in/yuto-kuroki-a5b32b383/"
             target="_blank"
             className="ml-auto px-4 py-2 text-base font-medium text-white bg-blue-900 rounded-full shadow-md transition-transform duration-200 hover:bg-blue-700 hover:scale-105 whitespace-nowrap"
-            rel="noreferrer"
-          >
+            rel="noreferrer">
             See LinkedIn
           </a>
         </div>
@@ -54,7 +53,6 @@ export default function HomePageEn() {
               <div className="mb-6">
                 <LanguageToggle />
               </div>
-
               <h1 className="text-4xl font-semibold">Yuto Kuroki</h1>
               <p className="text-lg mt-2">
                 <Link
@@ -344,7 +342,7 @@ export default function HomePageEn() {
                 </li>
                 <li>Waseda University Senior & Junior High School</li>
                 <li>Novi Middle School, Michigan, USA</li>
-                <li>Childhood in Singapore (2011–2013)</li>
+                <li>Childhood in Singapore (2011-2013)</li>
               </ul>
 
               <h2 className="mt-6 text-xl font-medium"><strong>Past Activities & Presentations</strong></h2>
@@ -419,9 +417,8 @@ export default function HomePageEn() {
               </ul>
               <h2 className="mt-6 text-xl font-medium"><strong>Other Skills & Hobbies</strong></h2>
               <p className="mt-3 text-neutral-800">
-                Public speaking, language teaching, event organization, tennis, solving complex Rubik's cubes, juggling, cooking, jump rope
+                Public speaking, language teaching, event organization, tennis, solving complex Rubik&apos;s cubes, juggling, cooking, jump rope
               </p>
-
             </section>
 
             {/* Footer */}

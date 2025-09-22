@@ -15,7 +15,7 @@ export default function Banner() {
     try {
       const stored = sessionStorage.getItem("pf_last_path");
       if (stored) setPreviousPage(stored);
-    } catch (e) {
+    } catch {
       // ignore in non-browser env or restricted storage
       setPreviousPage("/");
     }
@@ -25,14 +25,14 @@ export default function Banner() {
   useEffect(() => {
     try {
       sessionStorage.setItem("pf_last_path", pathname);
-    } catch (e) {
+    } catch {
       // ignore
     }
   }, [pathname]);
 
   const target = pathname === "/extra" ? previousPage || "/" : "/extra";
 
-  // avoid raw single quote characters to satisfy react/no-unescaped-entities
+  // Avoid raw single quotes to satisfy react/no-unescaped-entities
   const label =
     pathname === "/extra"
       ? "← Project Fluence — プロファイルに戻る"
@@ -40,7 +40,7 @@ export default function Banner() {
 
   return (
     <div className="w-full bg-blue-600 text-white text-center py-3">
-      <Link href={target} className="text-lg font-medium hover:underline" >
+      <Link href={target} className="text-lg font-medium hover:underline">
         {label}
       </Link>
     </div>

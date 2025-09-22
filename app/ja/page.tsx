@@ -286,7 +286,7 @@ export default function HomePageJa() {
                    {" "}— 自動障害物回避システムの研究
                 </li>
                 <li>
-                  <a href="https://www.goethe.de/resources/files/pdf315/japanheute_2024.pdf" target="_blank" rel="noopener nopreferrer" className="underline">
+                  <a href="https://www.goethe.de/resources/files/pdf315/japanheute_2024.pdf" target="_blank" rel="noopener noreferrer" className="underline">
                     Jugendkurs Deutsch plus Beruf (東アジア選考突破)
                   </a>
                   — 日本人初の奨学生（Dieter Schwarz財団）、ドイツの有名大学・企業・AIセミナーへの訪問
@@ -378,9 +378,10 @@ export default function HomePageJa() {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.asahi.com/articles/ASSDK2FK0SDKPLBJ001M.html" target="_blank" rel="nonopener nonreferrer" className="underline">
+                  <a href="https://www.asahi.com/articles/ASSDK2FK0SDKPLBJ001M.html" target="_blank" rel="noopener noreferrer" className="underline">
                     朝日新聞デジタル
                   </a>
+
                 </li>
 
                 <li>
